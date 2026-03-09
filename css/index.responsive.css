@@ -1,0 +1,81 @@
+@media (max-width: 1300px) {
+    header .carousel-inner .carousel-item .carousel-caption{
+        font-size: clamp(30px, 2vw, 50px);
+    }
+
+    header .carousel-inner .carousel-item .carousel-caption p{
+        width: 100%;
+    }
+
+    nav .navbar-brand {
+        width: 25%;
+    } 
+
+    nav .navbar-toggler i{
+  color: var(--bs-success);
+
+}
+
+nav .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+nav .navbar-collapse{
+  background-color: var(--bs-dark);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#BeansCoffee .content  h2{
+font-size: 25px;
+}
+
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+#BeansCoffee .content  h2{
+font-size: 35px;
+}
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    header .carousel-inner .carousel-item .carousel-caption p{
+        width: 90%;
+    }
+
+    #BeansCoffee .content  h2{
+font-size: 50px;
+}
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #BeansCoffee .content  h2{
+font-size: 60px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+nav .navbar-collapse{
+  background-color: transparent;
+}
+
+    #BeansCoffee .content  h2{
+font-size: 80px;
+}
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+
+
+
+}

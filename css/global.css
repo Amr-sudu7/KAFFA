@@ -1,0 +1,13 @@
+body{
+    font-family: "Oswald", "sans-serif";
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Sansita Swashed", "system-ui";
+}
+
+.temp {
+  background-color: #4d8b55;
+  color: white;
+}
